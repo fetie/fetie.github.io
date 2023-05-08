@@ -15,5 +15,6 @@ description: 此处是后端的一些文章。
 ### 列表
 
 - [windows配置https](dispose-https.md)
-- [mondodb防黑](after/mongodb-defense.md)
-- [使用nginx本地自定义域名](after/host-custom.md)
+- [mondodb防黑](mongodb-defense.md)
+- [使用nginx本地自定义域名](host-custom.md)
+- [linux免费配置https](free-https.md)

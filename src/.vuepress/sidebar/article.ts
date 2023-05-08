@@ -11,7 +11,8 @@ export const article = arraySidebar([
       "",
       "dispose-https",
       "mongodb-defense",
-      "host-custom"
+      "host-custom",
+      "free-https",
     ]
   },
   {

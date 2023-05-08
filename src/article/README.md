@@ -24,3 +24,4 @@ description: 这里是 fetie 的原创文章。
 - [windows配置https](after/dispose-https.md)
 - [mondodb防黑](after/mongodb-defense.md)
 - [使用nginx本地自定义域名](after/host-custom.md)
+- [linux免费配置https](after/free-https.md)
