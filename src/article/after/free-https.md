@@ -25,7 +25,6 @@ firewall-cmd --reload
 #再次查看开放端口，发现已经有了443，准备工作就完成了
 firewall-cmd --zone=public --list-ports 
 #80/tcp 3306/tcp 443/tcp
-复制代码
 ```
 
 ### 二、安装配置
@@ -34,7 +33,6 @@ firewall-cmd --zone=public --list-ports
 
 ```
 yum install certbot -y
-复制代码
 ```
 
 2.生成证书
@@ -43,10 +41,9 @@ yum install certbot -y
 
 ```
 #先停用nginx
-nignx -s stop
+nginx -s stop
 #再生成证书，需要根据自己的域名修改
 certbot certonly --standalone -d domain.com -d www.domian.com
-复制代码
 ```
 
 2.2知道网站根目录时这样生成
@@ -54,7 +51,6 @@ certbot certonly --standalone -d domain.com -d www.domian.com
 ```
 #需要根据自己的域名修改，这里的根目录是 /var/www/domain
 certbot certonly --webroot -w /var/www/domain -d domain.com -d www.domain.com
-复制代码
 ```
 
 不出意外，证书就生成了，一般会放在 /etc/letsencrypt/live 目录内
@@ -112,7 +108,6 @@ certbot certonly --webroot -w /var/www/domain -d domain.com -d www.domain.com
     location = /50x.html {
     }
   }
-复制代码
 ```
 
 5.重启nginx

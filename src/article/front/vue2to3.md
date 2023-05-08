@@ -145,7 +145,7 @@ export default store
 
 ### element-plus
 
-官方提供的不兼容列表：https://github.com/element-plus/element-plus/issues/162
+官方提供的不兼容列表：[https://github.com/element-plus/element-plus/issues/162](https://github.com/element-plus/element-plus/issues/162)
 
 `element`升到`plus`后发现有影响的组件：`menu`、`timePicker`、`tabs`、`tooltip`、`popover`、`dialog`、`table`、`pagination`
 
@@ -289,7 +289,7 @@ export default store
 
 本人升级实际解决的问题：过滤器转方法、slot换v-slot、事件总线换mitt、自定义指令、$set、input事件换为update:value、keep-alive
 
-https://v3.cn.vuejs.org/guide/migration/introduction.html
+[https://v3.cn.vuejs.org/guide/migration/introduction.html](https://v3.cn.vuejs.org/guide/migration/introduction.html)
 
 #### main.js文件
 
@@ -346,7 +346,8 @@ app.mount('#app')
 
 #### gogocode-cli工具
 
-https://gogocode.io/zh/docs/vue/vue2-to-vue3
+[https://gogocode.io/zh/docs/vue/vue2-to-vue3](https://gogocode.io/zh/docs/vue/vue2-to-vue3)
+
 
 `gogocode-cli`可以自动将`vue2`的代码转成`vue3`，但实际使用后还是有很多问题，建议只转`views`目录下的文件，其他目录自己转。
 
@@ -486,6 +487,4 @@ getImg(name){
 
 打包过程中发现`<template v-else>`这种写法会报错，需改成其他写法
 
-vue3开源项目参考：https://vue3js.cn/
-
-vite搭建vue3：https://juejin.cn/post/6951649464637636622
+vue3开源项目参考：[https://vue3js.cn/](https://vue3js.cn/)

@@ -13,13 +13,13 @@ star: true
 
 本站的前端页面来自[Gblog](http://static.fengziy.cn/Gblog/)。不过我用vue3+ts重构了，用的Composition API。
 
-本站的中国疆域历史地图全部来自https://sdmtai.github.io/
+本站的中国疆域历史地图全部来自[https://sdmtai.github.io/](https://sdmtai.github.io/)
 
-git地址：https://github.com/fetie/feBlogVue
+git地址：[https://github.com/fetie/feBlogVue](https://github.com/fetie/feBlogVue)
 
-博客网址：https://vue3.fetie.cn/
+vue3博客网址：[https://vue3.fetie.cn/](https://vue3.fetie.cn/)
 
-基础部分就不再赘述，只讲一些开发该博客时遇到的比较特别的问题，下面的代码都是从博客源码中提取
+基础部分就不再赘述，只讲一些开发该博客时遇到的比较特别的问题
 
 ## 前端主要技术
 
