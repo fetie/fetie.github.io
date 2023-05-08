@@ -2,10 +2,7 @@
 layout: Slide
 title: fetie 介绍
 icon: people
-tag:
-  - 个人介绍
 timeline: false
-star: true
 ---
 
 @slidestart

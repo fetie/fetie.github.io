@@ -14,9 +14,12 @@ export default hopeTheme({
 
   favicon: "/favicon.ico",
 
+  iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
+  iconPrefix: "iconfont icon-",
+
   logo: "/avatar.jpg",
 
-  repo: "https://github.com/fetie",
+  repo: "https://github.com/fetie/fetie-blog",
 
   repoDisplay: false,
 

@@ -10,5 +10,5 @@ breadcrumb: false
 
 ## 仓库链接
 
-- [**fetie 的个人博客**](https://github.com/fetie)
+- [**fetie 的个人博客**](https://github.com/fetie/fetie-blog)
 
