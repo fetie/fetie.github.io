@@ -78,7 +78,7 @@ openssl rsa -in fetie.key.org -out fetie.key
 ```
 openssl x509 -req -days 365 -in fetie.csr -signkey fetie.key -out fetie.crt
 ```
-
+![https4](./assets/https4.png)
 ![https5](./assets/https5.png)
 
 ## 3. 修改nginx配置

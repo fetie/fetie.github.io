@@ -4,6 +4,7 @@ icon: note
 category: 随笔
 star: true
 sticky: 19
+timeline: false
 description: 这里是 fetie 的随笔，记录了遇到的一些问题及好用的方法。
 ---
 

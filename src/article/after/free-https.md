@@ -1,5 +1,5 @@
 ---
-title: linux免费配置https
+title: linux配置免费的https
 icon: shell
 date: 2022-09-10
 category: 后端

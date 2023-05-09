@@ -32,7 +32,7 @@ export default defineUserConfig({
   theme,
 
   plugins: [
-    docsearchPlugin({
+    /*docsearchPlugin({
       appId: "LDBQGQC8Q9",
       apiKey: "5c3a7145aeba231c3b85b742d24fc24f",
       indexName: "mrhope",
@@ -79,7 +79,7 @@ export default defineUserConfig({
           },
         },
       },
-    }),
+    }),*/
   ],
 
   shouldPrefetch: false,

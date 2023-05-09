@@ -27,13 +27,17 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  contributors: false,
+
+  lastUpdated: true,
+
   locales: {
     "/": {
       navbar: zhNavbarConfig,
       sidebar: zhSidebarConfig,
 
       footer:
-        '主题使用 <a href="https://theme-hope.vuejs.press/zh/">VuePress Theme Hope</a> | <a href="https://fetie.cn/about/site.html" target="_blank">关于网站</a>',
+        '<a href="https://fetie.cn/about/site.html" target="_blank">关于网站</a>',
 
       copyright: "MIT Licensed | Copyright © 2019-present fetie",
 
@@ -58,8 +62,11 @@ export default hopeTheme({
     },
 
     comment: {
-      provider: "Waline",
-      serverURL: "https://comment.mrhope.site",
+      provider: "Giscus",
+      repo:'fetie/fetie-blog',
+      repoId:'R_kgDOJgDXBw',
+      category:'Announcements',
+      categoryId:'DIC_kwDOJgDXB84CWXI0',
     },
 
     feed: {

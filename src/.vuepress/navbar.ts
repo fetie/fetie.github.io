@@ -32,4 +32,16 @@ export const zhNavbarConfig = navbar([
     icon: "note",
     link: "/note"
   },
+  /*{
+    text: "游戏",
+    icon: "software",
+    prefix: "/game/",
+    children: [
+      {
+        text: "猜数字",
+        icon: "software",
+        link: "guess-num",
+      },
+    ],
+  },*/
 ])
