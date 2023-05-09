@@ -4,7 +4,7 @@ import { post } from "./post.js";
 export const zhSidebarConfig = sidebar({
   "/post/": post,
 
-  "/about/": ["", "site"],
+  "/about/": ["", "site","donate"],
 
   "/note": [""],
 
