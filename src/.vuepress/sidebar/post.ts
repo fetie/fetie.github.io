@@ -1,6 +1,6 @@
 import { arraySidebar } from "vuepress-theme-hope"
 
-export const article = arraySidebar([
+export const post = arraySidebar([
   "",
   {
     text: "后端",

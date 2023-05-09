@@ -5,13 +5,13 @@ export const zhNavbarConfig = navbar([
   {
     text: "文章",
     icon: "article",
-    prefix: "/article/",
+    prefix: "/post/",
     children: [
       {
         text: "原创文章",
         icon: "article",
         link: "",
-        activeMatch: "^/article/$",
+        activeMatch: "^/post/$",
       },
       {
         text: "后端",

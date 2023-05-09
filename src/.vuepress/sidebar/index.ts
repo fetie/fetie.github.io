@@ -1,8 +1,8 @@
 import { sidebar } from "vuepress-theme-hope";
-import { article } from "./article.js";
+import { post } from "./post.js";
 
 export const zhSidebarConfig = sidebar({
-  "/article/": article,
+  "/post/": post,
 
   "/about/": ["", "site"],
 

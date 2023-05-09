@@ -6,7 +6,7 @@ category: 前端
 timeline: true
 tag:
   - scss
-star: true
+star: false
 ---
 
 ## 安装配置
