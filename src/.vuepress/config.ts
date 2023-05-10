@@ -1,8 +1,16 @@
 import { defineUserConfig } from "@vuepress/cli";
 import docsearchPlugin from "@vuepress/plugin-docsearch";
 import theme from "./theme.js";
+import { getDirname, path } from "@vuepress/utils";
+
+// @ts-ignore
+const __dirname = getDirname(import.meta.url);
+console.log(__dirname,'dddd');
 
 export default defineUserConfig({
+  alias: {
+    "@GuessNum": path.resolve(__dirname, "component/GuessNum.vue"),
+  },
   dest: "dist",
 
   head: [

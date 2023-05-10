@@ -1,7 +1,12 @@
 import { defineClientConfig } from "@vuepress/client";
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 import { onMounted } from "vue";
 
 export default defineClientConfig({
+  enhance: ({ app, router, siteData }) => {
+    app.use(ElementPlus)
+  },
   setup() {
     onMounted(() => {
       console.log(String.raw`
