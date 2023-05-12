@@ -8,6 +8,11 @@ export const zhNavbarConfig = navbar([
     link: "/note"
   },
   {
+    text: "Linux",
+    icon: "linux",
+    link: "/linux"
+  },
+  {
     text: "文章",
     icon: "article",
     prefix: "/post/",
