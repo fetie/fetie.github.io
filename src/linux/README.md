@@ -14,3 +14,6 @@ description: 这里是 fetie 的Linux学习笔记。
 
 - [基础知识](base.md)
 - [系统管理](system.md)
+- [网络管理](network.md)
+- [软件安装](install.md)
+- [服务管理](service.md)

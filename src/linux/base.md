@@ -9,6 +9,7 @@ tag:
 star: true
 ---
 
+以centos为例的Linux基础知识
 
 ## 一、系统安装
     1.Linux严格区分大小写
