@@ -18,6 +18,9 @@
         </div>
       </el-collapse-item>
     </el-collapse>
+    <div class="btn">
+      <el-button style="margin-bottom: 20px" type="warning" @click="resetNumber">重新开始</el-button>
+    </div>
     <div class="form">
       <el-input
         v-model="guessNumber"
@@ -26,8 +29,6 @@
         clearable
         placeholder="请输入你猜测的数字"
       />
-      <!--      el-button在uc移动端显示不出来-->
-      <el-button type="primary" @click="submitNumber">确认</el-button>
     </div>
     <div class="num">
       <div v-for="(item, index) in guessTip" :key="index">
@@ -40,7 +41,7 @@
       <el-alert :title="successTip" type="success" show-icon></el-alert>
     </div>
     <div class="btn">
-      <el-button type="warning" @click="resetNumber">重新开始</el-button>
+      <el-button type="primary" @click="submitNumber"> 确 认 </el-button>
     </div>
   </div>
 </template>
@@ -147,7 +148,7 @@ onMounted(() => {
   margin: 0 auto;
   max-width: 800px;
   > div {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .rule-title {
     color: #333;
@@ -162,7 +163,6 @@ onMounted(() => {
     align-items: center;
     .el-input {
       width: 200px;
-      margin-right: 20px;
     }
   }
   .num {
@@ -170,8 +170,9 @@ onMounted(() => {
     flex-wrap: wrap;
     > div {
       width: 25%;
+      min-width: 100px;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   }
   .btn {
