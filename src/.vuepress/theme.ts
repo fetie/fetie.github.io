@@ -4,11 +4,11 @@ import { zhNavbarConfig } from "./navbar.js";
 import { zhSidebarConfig } from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://fetie.cn",
+  hostname: "https://www.fetie.cn",
 
   author: {
     name: "fetie",
-    url: "https://fetie.cn",
+    url: "https://www.fetie.cn",
     email:"a@fetie.cn"
   },
 
@@ -23,7 +23,7 @@ export default hopeTheme({
 
   docsBranch:'master',
 
-  repoDisplay: false,
+  repoDisplay: true,
 
   docsDir: "src",
 
@@ -37,7 +37,7 @@ export default hopeTheme({
       sidebar: zhSidebarConfig,
 
       footer:
-        '<a href="https://fetie.cn/about/site.html" target="_blank">关于网站</a>',
+        '<a href="https://www.fetie.cn/about/site.html" target="_blank">关于网站</a>',
 
       copyright: "MIT Licensed | Copyright © 2019-present fetie",
 

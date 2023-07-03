@@ -42,7 +42,7 @@ yum install certbot -y
 ```
 #先停用nginx
 nginx -s stop
-#再生成证书，需要根据自己的域名修改
+#再生成证书，需要根据自己的域名修改，有多个域名如下一次性生成
 certbot certonly --standalone -d domain.com -d www.domian.com
 ```
 
