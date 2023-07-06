@@ -1,4 +1,8 @@
-
+---
+title: 判断推理
+icon: form
+date: 2023-07-06
+---
 
 # 图形推理
 
@@ -33,15 +37,15 @@
 
 * 相加、减
 
-![tuxjiajian](E:\za\shiyebian\tuxjiajian.png)
+![tuxjiajian](https://cdn.fetie.cn/shiyebian/tuxjiajian.png)
 
 * 求异（占到90%）
 
-![tuxqiuyi](E:\za\shiyebian\tuxqiuyi.png)
+![tuxqiuyi](https://cdn.fetie.cn/shiyebian/tuxqiuyi.png)
 
 * 求同
 
-![tuxqiutong](E:\za\shiyebian\tuxqiutong.png)
+![tuxqiutong](https://cdn.fetie.cn/shiyebian/tuxqiutong.png)
 
 #### 黑白运算
 
@@ -53,11 +57,11 @@
 
 * 黑块数量相同：优先平移
 
-  ![heikuaisame](E:\za\shiyebian\heikuaisame.png)
+  ![heikuaisame](https://cdn.fetie.cn/shiyebian/heikuaisame.png)
 
 * 黑块数量不同：优先运算
 
-  ![heikuainosame](E:\za\shiyebian\heikuainosame.png)
+  ![heikuainosame](https://cdn.fetie.cn/shiyebian/heikuainosame.png)
 
 ### 属性规律
 
@@ -89,11 +93,11 @@
 
 1. 全曲线
 
-![quanquxiang](E:\za\shiyebian\quanquxiang.png)
+![quanquxiang](https://cdn.fetie.cn/shiyebian/quanquxiang.png)
 
 2. 全直线
 
-![quanzhixiang](E:\za\shiyebian\quanzhixiang.png)
+![quanzhixiang](https://cdn.fetie.cn/shiyebian/quanzhixiang.png)
 
 #### 开闭性
 
@@ -146,7 +150,7 @@
 3. 多端点图形
 4. 凌乱一笔画图形
 
-![bihuashu](E:\za\shiyebian\bihuashu.png)
+![bihuashu](https://cdn.fetie.cn/shiyebian/bihuashu.png)
 
 #### 面数量
 
