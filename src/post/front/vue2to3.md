@@ -287,7 +287,7 @@ export default store
 
 ### vue
 
-本人升级实际解决的问题：过滤器转方法、slot换v-slot、事件总线换mitt、自定义指令、$set、input事件换为update:value、keep-alive
+本人升级实际解决的问题：过滤器转方法、slot换v-slot、事件总线换mitt、自定义指令、\$set、input事件换为update:value、keep-alive
 
 [https://v3.cn.vuejs.org/guide/migration/introduction.html](https://v3.cn.vuejs.org/guide/migration/introduction.html)
 
@@ -359,7 +359,7 @@ gogocode -s ./views -t gogocode-plugin-vue -o ./views-out
 
 转化的过程中有可能会失败，失败的原因一般都是在转slot时失败。这种情况可以先自行手动修改转化，之后在执行命令重新进行转化
 
-转化完后除了原有的文件，还会新生成一个gogocodeTransfer.js文件，这个文件主要对$on、$once、$off、$emit、$children单独写了方法
+转化完后除了原有的文件，还会新生成一个gogocodeTransfer.js文件，这个文件主要对\$on、\$once、\$off、\$emit、\$children单独写了方法
 
 转化出现的问题：
 
@@ -370,8 +370,8 @@ gogocode -s ./views -t gogocode-plugin-vue -o ./views-out
 
 可能会有的问题（实际在项目中还没发现有什么问题）：
 
-1. $set直接移除改为使用变量直接赋值
-2. 对$on、$once、$off、$emit、$children单独写了方法进行引用和使用
+1. \$set直接移除改为使用变量直接赋值
+2. 对\$on,\$once,\$off,\$emit,\$children单独写了方法进行引用和使用
 
 #### import Vue from 'vue'
 

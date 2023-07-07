@@ -148,7 +148,7 @@ $$
 ### 等距离平均速度
 
 $$
-{ \mathbf{V}_平 } = {2 \times \mathbf{V}_1 \times \mathbf{V}_2 \over \mathbf{V}_1+\mathbf{V}_2}
+{ \mathbf{V}_\text{平} } = {2 \times \mathbf{V}_1 \times \mathbf{V}_2 \over \mathbf{V}_1+\mathbf{V}_2}
 $$
 
 1. 上下坡
@@ -163,11 +163,11 @@ $$
 
 ![xiangyu](https://cdn.fetie.cn/shiyebian/xiangyu.png)
 $$
-{ \mathbf{S}_{相距} } = {(\mathbf{V}_1 + \mathbf{V}_2) \times t}
+{ \mathbf{S}_\text{相距} } = {(\mathbf{V}_1 + \mathbf{V}_2) \times t}
 $$
 ![zhuiji](https://cdn.fetie.cn/shiyebian/zhuiji.png)
 $$
-{ \mathbf{S}_{追} } = {(\mathbf{V}_大 - \mathbf{V}_小) \times t}
+{ \mathbf{S}_\text{追} } = {(\mathbf{V}_\text{大} - \mathbf{V}_\text{小}) \times t}
 $$
 两端相遇
 
@@ -216,7 +216,7 @@ $$
 #### 错位排列
 
 $$
-D_2=1，D_3=2，D_4=9，D_5=44
+D_2=1,D_3=2,D_4=9,D_5=44
 $$
 
 
@@ -233,7 +233,7 @@ $$
 # 概率问题
 
 $$
-P=满足条件的情况数 \over 总的情况数
+P=\text{满足条件的情况数} \over \text{总的情况数}
 $$
 
 ![liangrenfendui3](https://cdn.fetie.cn/shiyebian/liangrenfendui3.png)
