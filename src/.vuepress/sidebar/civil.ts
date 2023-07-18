@@ -5,4 +5,5 @@ export const civil = arraySidebar([
   "zlfx",
   "pdtl",
   "slgx",
+  "cycs",
 ]);

@@ -1,12 +1,14 @@
 ---
 title: 资料分析
 icon: form
+article: false
+timeline: false
 date: 2023-07-06
 ---
 
 ## 说明
 
-20个起马对17个，全对可能性很大
+20个起码对17个，全对可能性很大
 
 用时25分钟左右，最多28分钟
 
