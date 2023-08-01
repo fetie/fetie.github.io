@@ -1282,3 +1282,34 @@ import  inputDirective from 'vue-el-input-directive'
 Vue.use(inputDirective)
 ```
 
+## 2023 7.25
+
+### 使用async/await和for of让异步请求串行
+```
+//实现串行
+async function awaitExe() {
+  const arrs=['3','2','1','0']
+  for (const arr of arrs) {
+    await asyncFunc(arr);
+  }
+}
+function noAwaitExe(){
+  const arrs=['3','2','1','0']
+  arrs.forEach(async (arr) => {
+    await asyncFunc(arr);
+  })
+}
+
+//模拟不同时长的异步请求
+function asyncFunc(num){
+  return new Promise((resolve)=>{
+    setTimeout(()=>{
+      console.log(num)
+      resolve()
+    },num*1000)
+  })
+}
+
+awaitExe()  //3 2 1 0
+//noAwaitExe()  //0 1 2 3
+```
