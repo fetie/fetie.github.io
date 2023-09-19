@@ -1313,3 +1313,39 @@ function asyncFunc(num){
 awaitExe()  //3 2 1 0
 //noAwaitExe()  //0 1 2 3
 ```
+
+## 2023 9.11
+
+### 访问https网站显示“你的连接不是专用连接”解决方法
+1. 调整键盘为英文输入状态
+2. 鼠标点击当前页面任意位置，然后依次按键：thisisunsafe
+3. 输入完成后，页面会自动刷新，即可正常访问。
+
+## 2023 9.19
+
+### css 伪类:has判断是否有某个元素，类似if
+
+`div:has(+p)` 表示当 div 后面紧跟一个 p 时，选中 div
+
+如下面想要实现当有el-input__count时再应用input样式
+
+```
+<div data-v-70788702="" class="el-input el-input--medium">
+    <input type="text" autocomplete="off" maxlength="100" placeholder="请输入副标题" class="el-input__inner">
+    <span class="el-input__suffix">
+        <span class="el-input__suffix-inner">
+            <span class="el-input__count"><span class="el-input__count-inner">
+                0/100
+              </span>
+          </span>
+      </span>
+    </span>
+</div>
+```
+
+```
+.el-input input:has(+.el-input__suffix .el-input__count){
+  padding-right: 50px;
+}
+```
+
