@@ -1349,3 +1349,25 @@ awaitExe()  //3 2 1 0
 }
 ```
 
+## 2023 11.13
+
+### $set设置失效
+
+1. 可能是设置方法使用错误
+
+```
+let data=[
+{url:1},
+{url:2},
+]
+this.$set(this.data[1], url, 3)	//该方法使用错误，不支持相应式
+
+data[1]=3
+this.$set(this.data, 1, {...this.data[1]})	//对数组进行操作则设置后的值支持相应式
+```
+
+2. 设置后页面没更新
+
+   添加:key
+
+   使用this.$forceUpdate()
