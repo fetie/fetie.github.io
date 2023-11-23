@@ -1355,7 +1355,7 @@ awaitExe()  //3 2 1 0
 
 1. 可能是设置方法使用错误
 
-```
+```javascript
 let data=[
 {url:1},
 {url:2},
