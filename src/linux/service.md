@@ -12,41 +12,41 @@ star: true
 这里主要对Linux的服务管理进行介绍，包括系统的运行级别、服务管理的分类、RPM包管理和源码包服务管理。
 
 ## 一、简介与分类
-![1.1_服务的分类](https://cdn.fetie.cn/linux/service/1.1_服务的分类.jpg)
+![1.1_服务的分类](https://cdn.jsdelivr.net/gh/fetie/img/service/1.1_服务的分类.jpg)
 
-![1.2.1_查询已安装的服务](https://cdn.fetie.cn/linux/service/1.2.1_查询已安装的服务.jpg)
+![1.2.1_查询已安装的服务](https://cdn.jsdelivr.net/gh/fetie/img/service/1.2.1_查询已安装的服务.jpg)
 
-![1.2.2_关于端口](https://cdn.fetie.cn/linux/service/1.2.2_关于端口.jpg)
+![1.2.2_关于端口](https://cdn.jsdelivr.net/gh/fetie/img/service/1.2.2_关于端口.jpg)
 
-![1.2.3_查询系统中开启的服务](https://cdn.fetie.cn/linux/service/1.2.3_查询系统中开启的服务.jpg)
+![1.2.3_查询系统中开启的服务](https://cdn.jsdelivr.net/gh/fetie/img/service/1.2.3_查询系统中开启的服务.jpg)
 
 ## 二、RPM包服务管理
-![2.1.1_rpm包自动安装默认的一些位置](https://cdn.fetie.cn/linux/service/2.1.1_rpm包自动安装默认的一些位置.jpg)
+![2.1.1_rpm包自动安装默认的一些位置](https://cdn.jsdelivr.net/gh/fetie/img/service/2.1.1_rpm包自动安装默认的一些位置.jpg)
 
-![2.1.2_rpm包独立服务的启动](https://cdn.fetie.cn/linux/service/2.1.2_rpm包独立服务的启动.jpg)
+![2.1.2_rpm包独立服务的启动](https://cdn.jsdelivr.net/gh/fetie/img/service/2.1.2_rpm包独立服务的启动.jpg)
 
-![2.2.1_独立服务的自启动](https://cdn.fetie.cn/linux/service/2.2.1_独立服务的自启动.jpg)
+![2.2.1_独立服务的自启动](https://cdn.jsdelivr.net/gh/fetie/img/service/2.2.1_独立服务的自启动.jpg)
 
-![2.3.1_xinetd服务的启动](https://cdn.fetie.cn/linux/service/2.3.1_xinetd服务的启动.jpg)
+![2.3.1_xinetd服务的启动](https://cdn.jsdelivr.net/gh/fetie/img/service/2.3.1_xinetd服务的启动.jpg)
 
-![2.3.2_xinetd服务的启动的具体命令](https://cdn.fetie.cn/linux/service/2.3.2_xinetd服务的启动的具体命令.jpg)
+![2.3.2_xinetd服务的启动的具体命令](https://cdn.jsdelivr.net/gh/fetie/img/service/2.3.2_xinetd服务的启动的具体命令.jpg)
 
-![2.3.3_xinetd服务的自启动](https://cdn.fetie.cn/linux/service/2.3.3_xinetd服务的自启动.jpg)
+![2.3.3_xinetd服务的自启动](https://cdn.jsdelivr.net/gh/fetie/img/service/2.3.3_xinetd服务的自启动.jpg)
 
 ## 三、源码包服务管理
-![3.1.1_源码包安装服务的启动](https://cdn.fetie.cn/linux/service/3.1.1_源码包安装服务的启动.jpg)
+![3.1.1_源码包安装服务的启动](https://cdn.jsdelivr.net/gh/fetie/img/service/3.1.1_源码包安装服务的启动.jpg)
 
-![3.1.2_源码包服务的自启动](https://cdn.fetie.cn/linux/service/3.1.2_源码包服务的自启动.jpg)
+![3.1.2_源码包服务的自启动](https://cdn.jsdelivr.net/gh/fetie/img/service/3.1.2_源码包服务的自启动.jpg)
 
-![3.1.3_让源码包服务被服务管理命令识别](https://cdn.fetie.cn/linux/service/3.1.3_让源码包服务被服务管理命令识别.jpg)
+![3.1.3_让源码包服务被服务管理命令识别](https://cdn.jsdelivr.net/gh/fetie/img/service/3.1.3_让源码包服务被服务管理命令识别.jpg)
 
-![3.2.1_让源码包变成chkconfig管理自启动_](https://cdn.fetie.cn/linux/service/3.2.1_让源码包变成chkconfig管理自启动_.jpg)
+![3.2.1_让源码包变成chkconfig管理自启动_](https://cdn.jsdelivr.net/gh/fetie/img/service/3.2.1_让源码包变成chkconfig管理自启动_.jpg)
 
-![3.2.2_把源码包加入chkconfig](https://cdn.fetie.cn/linux/service/3.2.2_把源码包加入chkconfig.jpg)
+![3.2.2_把源码包加入chkconfig](https://cdn.jsdelivr.net/gh/fetie/img/service/3.2.2_把源码包加入chkconfig.jpg)
 
 ## 四、总结
 
-![4.1_linux服务总结](https://cdn.fetie.cn/linux/service/4.1_linux服务总结.jpg)
+![4.1_linux服务总结](https://cdn.jsdelivr.net/gh/fetie/img/service/4.1_linux服务总结.jpg)
 
 ## 五、Linux 常见服务
 
