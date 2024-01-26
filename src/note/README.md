@@ -1371,3 +1371,56 @@ this.$set(this.data, 1, {...this.data[1]})	//对数组进行操作则设置后�
    添加:key
 
    使用this.$forceUpdate()
+
+## 2023 12.1
+
+### 多图片链接批量下载
+
+```javascript
+import FileSaver from 'file-saver'
+import JSZip from 'jszip'
+
+saveImg() {
+  if (this.imgList.length === 1) {
+    location.href = this.currentImg
+  } else {
+    const zip = new JSZip()
+    let flag = 0
+    for (let i = 0; i < this.imgList.length; i++) {
+      // 调用getBase64()方法,传入图片网络地址得到base64数据
+      this.getBase64(this.imgList[i]).then(base64 => {
+        base64 = base64.split('base64,')[1]
+        zip.file(`invoice${i}.png`, base64, { base64: true })
+        if (flag === this.imgList.length - 1) {
+          zip.generateAsync({ type: 'blob' }).then((content) => {
+            FileSaver.saveAs(content, `invoice_${new Date().getTime()}.zip`)
+          })
+        }
+        flag++
+      })
+    }
+  }
+},
+// 传入图片地址，返回base64格式数据
+getBase64(img) {
+  const image = new Image()
+  image.crossOrigin = '*'// 解决图片跨域问题
+  image.src = img
+  return new Promise((resolve, reject) => {
+    image.onload = () => {
+      resolve(this.getBase64Image(image))
+    }
+  })
+},
+
+// 创建画布，将图片渲染到画布上，再将画布转为base64格式数据返回出来
+getBase64Image(img, width, height) {
+  const canvas = document.createElement('canvas')
+  canvas.width = width || img.width
+  canvas.height = height || img.height
+  const ctx = canvas.getContext('2d')
+  ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
+  return canvas.toDataURL()
+}
+```
+
