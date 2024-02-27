@@ -1423,4 +1423,3 @@ getBase64Image(img, width, height) {
   return canvas.toDataURL()
 }
 ```
-
