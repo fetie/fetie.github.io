@@ -1423,3 +1423,33 @@ getBase64Image(img, width, height) {
   return canvas.toDataURL()
 }
 ```
+## 2024 4.17
+
+### 固定宽度内元素自动均分宽度
+
+```html
+<div class="container">
+  <div class="item">元素1</div>
+  <div class="item">元素2</div>
+  <div class="item">元素3</div>
+  <!-- 更多元素 -->
+</div>
+```
+```css
+.container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: space-between; /* 水平方向均分空间 */
+  width: 固定宽度; /* 设置容器宽度 */
+}
+ 
+.item {
+  flex: 1; /* 允许元素均分剩余空间 */
+  /* 其他样式，如margin、padding等 */
+}
+```
+
+## 2024 5.11
+
+### `flex:1`的内部元素宽度过长
+
+给`flex:1`的元素设置`overflow:hidden`

@@ -22,6 +22,7 @@ export const post = arraySidebar([
     collapsible: true,
     children: [
       "",
+      "html2pdf",
       "vue2to3",
       "repeat-click",
       "scss-check",
