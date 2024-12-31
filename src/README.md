@@ -5,7 +5,8 @@ icon: home
 title: 主页
 heroImage: /avatar.jpg
 heroText: fetie
-tagline: 生亦我索欲也 e 亦我索欲也 二者不可得兼 舍生而取e者也
+tagline: 这世界既不黑也不白，而是一道精致的灰
+
 # Special thank to @mo7
 bgImage: http://file.mo7.cc/api/public/bz
 heroFullScreen: true

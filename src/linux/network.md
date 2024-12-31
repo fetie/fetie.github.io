@@ -11,6 +11,8 @@ star: true
 
 Linux装好以后是不能和网络中的其他机器进行通信的，这里会为你解决Linux网络配置的问题。首先会介绍网络基础知识，然后进行IP地址的配置，并总结了在配置网络环境中经常遇到的问题。
 
+<!-- more -->
+
 ## 一、网络基础
 
 ![1.1_OSI的七层框架](https://cdn.jsdelivr.net/gh/fetie/img/network/1.1_OSI的七层框架.jpg)

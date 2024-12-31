@@ -10,6 +10,9 @@ star: true
 ---
 
 这里介绍如何对Linux系统进行管理，包括进程管理、工作管理、系统资源查看和定时任务。
+
+<!-- more -->
+
 ## 一、进程管理
 
 ![1.1.1_查看所有进程](https://cdn.jsdelivr.net/gh/fetie/img/system/1.1.1_查看所有进程.jpg)

@@ -5,12 +5,12 @@ export const zhNavbarConfig = navbar([
   {
     text: "随笔",
     icon: "note",
-    link: "/note"
+    link: "/note/"
   },
   {
     text: "Linux",
     icon: "linux",
-    link: "/linux"
+    link: "/linux/"
   },
   {
     text: "文章",
@@ -48,5 +48,10 @@ export const zhNavbarConfig = navbar([
         link: "guess-num",
       },
     ],
+  },,
+  {
+    text: "内网传输",
+    icon: "network",
+    link: "https://file.fetie.cn"
   },
 ])

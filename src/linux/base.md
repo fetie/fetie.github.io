@@ -11,6 +11,8 @@ star: true
 
 以centos为例的Linux基础知识
 
+<!-- more -->
+
 ## 一、系统安装
     1.Linux严格区分大小写
     2.Linux中所有内容以文件形式保存，包括硬件

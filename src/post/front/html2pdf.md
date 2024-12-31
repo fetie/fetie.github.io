@@ -177,7 +177,7 @@ async function uploadOss(fileBuffer,params){
 
 html转为pdf后页面是分页显示的，而分页后在html里是连贯的部分转为pdf后可能就会断开。
 
-![](E:\xx\frontEnd\导出pdf\table-broken.png)
+![](./assets/table-broken.png)
 
 像上面这样表格线条断开的情况可加入下面的样式，但如果border只有1px会出现分页处上面有border而下面没border得情况，这里我是把border设为了2px
 
@@ -187,7 +187,7 @@ table tr{
 }
 ```
 
-![](E:\xx\frontEnd\导出pdf\table-us.png)
+![](./assets/table-us.png)
 
 ## windows
 
@@ -206,7 +206,7 @@ http://127.0.0.1:3080/create-pdf?link=https://element.eleme.cn/#/zh-CN/component
 
 因为pupeteer是基于Chrome工作，理论上使用npm安装pupeteer的时候是会自动装chromium，但chromium可能会安装失败。运行代码的时候就会报类似下面这样的错
 
-![](E:\xx\frontEnd\导出pdf\browser-error.png)
+![](./assets/browser-error.png)
 
 这时就需要自己手动安装chromium
 
@@ -247,7 +247,7 @@ https://puhuiti.oss-cn-hangzhou.aliyuncs.com/AlibabaPuHuiTi-3/AlibabaPuHuiTi-3-5
 
 #### 2.上传ttf文件
 
-![](E:\xx\frontEnd\导出pdf\font.png)
+![](./assets/font.png)
 
 将压缩包里的ttf字体文件上传到服务器
 
@@ -309,7 +309,7 @@ yum install fontconfig
 fc-list
 ```
 
-![](E:\xx\frontEnd\导出pdf\font-list.png)
+![](./assets/font-list.png)
 
 ### pm2管理服务
 
@@ -352,7 +352,7 @@ location /create-pdf{
 
 使用原生的`window.print()`基本上能符合需求，但也有缺点，那就是得用户手动下载pdf。
 
-![](E:\xx\frontEnd\导出pdf\window-print.png)
+![](./assets/window-print.png)
 
 **示例代码**
 
@@ -552,7 +552,7 @@ location /create-pdf{
 
 在html里内容是连贯的，但在转成pdf后会被截断。因为该方法是将固定高度的html转成了图片，所以就有可能会出现一段文字被截成了两断，如图：
 
-![](E:\xx\frontEnd\导出pdf\canvas-broken.png)
+![](./assets/canvas-broken.png)
 
 当然解决办法就是在转成图片之前就要把页面分好页，这里的方法就要根据自己的项目再具体分析了，总之方法比较复杂，我就没有采用。
 

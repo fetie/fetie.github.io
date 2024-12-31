@@ -10,7 +10,7 @@ star: true
 ---
 ## 前言
 
-自己做的小破站居然被黑了
+自己网站的mogodb因没设置账号密码被扫描到后就被黑了。
 
 ![](./assets/dbdestroy.png)
 

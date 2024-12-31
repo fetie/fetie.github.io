@@ -11,6 +11,8 @@ star: true
 
 这里主要对Linux的服务管理进行介绍，包括系统的运行级别、服务管理的分类、RPM包管理和源码包服务管理。
 
+<!-- more -->
+
 ## 一、简介与分类
 ![1.1_服务的分类](https://cdn.jsdelivr.net/gh/fetie/img/service/1.1_服务的分类.jpg)
 
