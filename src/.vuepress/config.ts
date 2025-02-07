@@ -1,4 +1,4 @@
-import { appendDatePlugin } from "@vuepress/plugin-append-date";
+// import { appendDatePlugin } from "@vuepress/plugin-append-date";
 import { cachePlugin } from "@vuepress/plugin-cache";
 import { defineUserConfig } from "vuepress";
 
@@ -40,7 +40,7 @@ export default defineUserConfig({
 
   theme,
 
-  plugins: [appendDatePlugin(), cachePlugin({ type: "filesystem" })],
+  plugins: [cachePlugin({ type: "filesystem" })],
 
   shouldPrefetch: false,
 });
