@@ -27,6 +27,10 @@ export const post = arraySidebar([
       "repeat-click",
       "scss-check",
       "ts-problem",
+      "css-block",
+      "css-attr-calc",
+      "event",
+      "render",
     ]
   }
 ]);
