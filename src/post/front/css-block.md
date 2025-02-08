@@ -1,7 +1,7 @@
 ---
+date: 2025-02-07
 title: CSS包含块
 icon: chrome
-date: 2025-2-6
 category: 前端
 timeline: true
 star: true
@@ -13,17 +13,11 @@ star: true
 
 但是一说到 CSS 包含块，有的小伙伴就懵圈了，什么是包含块？好像从来没有听说过这玩意儿。
 
-<img src="https://xiejie-typora.oss-cn-chengdu.aliyuncs.com/2022-08-14-142005.png" alt="image-20220814222004395" style="zoom: 20%;" />
-
 好吧，如果你对包含块的知识一无所知，那么系好安全带，咱们准备出发了。
-
-<img src="https://xiejie-typora.oss-cn-chengdu.aliyuncs.com/2022-08-13-060434.png" alt="image-20220813140434032" style="zoom:50%;" />
 
 包含块英语全称为**containing block**，实际上平时你在书写 CSS 时，大多数情况下你是感受不到它的存在，因此你不知道这个知识点也是一件很正常的事情。但是这玩意儿是确确实实存在的，在 CSS 规范中也是明确书写了的：
 
 *https://drafts.csswg.org/css2/#containing-block-details*
-
-<img src="https://xiejie-typora.oss-cn-chengdu.aliyuncs.com/2022-08-14-142459.png" alt="image-20220814222458695" style="zoom:50%;" />
 
 并且，如果你不了解它的运作机制，有时就会出现一些你认为的莫名其妙的现象。
 
@@ -32,8 +26,6 @@ star: true
 说起来也简单，**就是元素的尺寸和位置，会受它的包含块所影响。对于一些属性，例如 width, height, padding, margin，绝对定位元素的偏移值（比如 position 被设置为 absolute 或 fixed），当我们对其赋予百分比值时，这些值的计算值，就是通过元素的包含块计算得来。**
 
 来吧，少年，让我们从最简单的 case 开始看。
-
-<img src="https://xiejie-typora.oss-cn-chengdu.aliyuncs.com/2022-08-14-143153.png" alt="image-20220814223152726" style="zoom: 50%;" />
 
 ```html
 <body>
@@ -58,7 +50,7 @@ star: true
 
 请仔细阅读上面的代码，然后你认为 div.item 这个盒子的宽高是多少？
 
-<img src="https://xiejie-typora.oss-cn-chengdu.aliyuncs.com/2022-08-14-143451.png" alt="image-20220814223451349" style="zoom: 33%;" />
+<img src="./assets/2022-08-14-143451.png" style="zoom: 33%;" />
 
 相信你能够很自信的回答这个简单的问题，div.item 盒子的 width 为 250px，height 为 150px。
 
@@ -119,7 +111,7 @@ star: true
 
 公布正确答案：
 
-<img src="https://xiejie-typora.oss-cn-chengdu.aliyuncs.com/2022-08-14-153548.png" alt="image-20220814233548188" style="zoom: 33%;" />
+<img src="./assets/2022-08-14-153548.png" style="zoom: 33%;" />
 
 怎么样？有没有和你所想象的对上？
 
@@ -172,13 +164,12 @@ star: true
 
 我们对于上面的代码只新增了一条声明，那就是 transform: rotate(0deg)，此时的渲染效果却发生了改变，如下图所示：
 
-<img src="https://xiejie-typora.oss-cn-chengdu.aliyuncs.com/2022-08-14-154347.png" alt="image-20220814234347149" style="zoom:33%;" />
+<img src="./assets/2022-08-14-154347.png" style="zoom:33%;" />
 
 可以看到，此时对于 div.item2 来讲，包含块就变成了 div.item。
 
 好了，到这里，关于包含块的知识就基本讲完了。
 
-<img src="https://xiejie-typora.oss-cn-chengdu.aliyuncs.com/2022-08-14-154655.png" alt="image-20220814234654914" style="zoom:33%;" />
 
 我们再把 CSS 规范中所举的例子来看一下。
 
@@ -287,8 +278,6 @@ star: true
 | strong1 | em1（因为 em1 变为了块容器，参阅非根元素包含块确定规则的第一条） |
 
 好了，这就是 CSS 规范中所举的例子。如果你全都能看明白，以后你还能跟别人说你是看过这一块知识对应的 CSS 规范的人。
-
-<img src="https://xiejie-typora.oss-cn-chengdu.aliyuncs.com/2022-08-15-013519.png" alt="image-20220815093518833" style="zoom:33%;" />
 
 另外，关于包含块的知识，在 MDN 上除了解说了什么是包含块以外，也举出了很多简单易懂的示例。
 

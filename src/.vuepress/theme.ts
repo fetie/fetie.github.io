@@ -14,9 +14,6 @@ export default hopeTheme({
 
   favicon: "/favicon.ico",
 
-  iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
-  iconPrefix: "iconfont icon-",
-
   logo: "/avatar.jpg",
 
   repo: "https://github.com/fetie/fetie-blog",
@@ -43,7 +40,6 @@ export default hopeTheme({
 
       blog: {
         description: "fetie的博客",
-        roundAvatar:true,
         intro: "/about/",
         medias: {
           Juejin: {
@@ -60,6 +56,12 @@ export default hopeTheme({
   displayFooter: true,
 
   plugins: {
+
+    icon:{
+      assets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
+      prefix: "iconfont icon-",
+    },
+
     blog: {
       excerptLength: 0
     },
@@ -78,7 +80,7 @@ export default hopeTheme({
       rss: true,
     },
 
-    mdEnhance: {
+    /*markdown: {
       align: true,
       codetabs: true,
       demo: true,
@@ -91,19 +93,14 @@ export default hopeTheme({
       sub: true,
       sup: true,
       vPre: true,
-    },
+    },*/
 
     pwa: {
       themeColor: "#5c92d1",
       cacheHTML: false,
       maxSize: 3072,
       apple: {
-        icon: "/assets/icon/apple-touch-icon.png",
-        statusBarColor: "white",
-      },
-      msTile: {
-        image: "/assets/icon/ms-icon-144.png",
-        color: "#ffffff",
+        icon: "/assets/icon/apple-touch-icon.png"
       },
       manifest: {
         name: "fetie 的个人博客",

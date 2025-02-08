@@ -1,7 +1,7 @@
 ---
+date: 2025-02-06
 title: 浏览器渲染页面
 icon: chrome
-date: 2025-2-6
 category: 前端
 timeline: true
 star: true

@@ -3,7 +3,7 @@ import { cachePlugin } from "@vuepress/plugin-cache";
 import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
-import { getDirname, path } from "@vuepress/utils";
+import { getDirname, path } from "vuepress/utils";
 
 // @ts-ignore
 const __dirname = getDirname(import.meta.url);
@@ -29,12 +29,6 @@ export default defineUserConfig({
       lang: "zh-CN",
       title: "fetie",
       description: "fetie的博客",
-    },
-  },
-
-  markdown: {
-    code: {
-      lineNumbers: 10,
     },
   },
 
