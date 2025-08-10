@@ -4,6 +4,7 @@ icon: note
 category: 随笔
 star: true
 sticky: 19
+date: 2021-03-20
 timeline: false
 description: 这里是 fetie 的随笔，记录了遇到的一些问题及好用的方法。
 ---
@@ -1453,3 +1454,32 @@ getBase64Image(img, width, height) {
 ### `flex:1`的内部元素宽度过长
 
 给`flex:1`的元素设置`overflow:hidden`
+
+## 2025 7.01
+
+### 带边框三角的气泡框
+```html
+<div class="shape"></div>
+```
+
+```css
+.shape {
+  width: 200px;
+  height: 100px;
+  border-radius: 8px;
+  background: #faf8f4;
+  border: 1px solid #e6d9b3;
+  position: relative;
+}
+.shape::after {
+  content:'';
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%) rotate(45deg);
+  width: 15px;
+  height: 15px;
+  background: #faf8f4;
+  border: 1px solid #e6d9b3;
+  border-style: none none solid solid
+}
+```
